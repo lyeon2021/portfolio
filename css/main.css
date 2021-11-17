@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgb(155, 204, 245);
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 50px;
+  background-color: floralwhite;
+}
+.nav-link {
+  margin: 0.5em;
+  border: 0.2em solid: rgb(29, 110, 114);
+  padding: 0.2em;
+  font: size 1.2em;
+  transition:ease-out 1s all;
+}
+.nav-link:hover{
+background-color:  rgb(155, 204, 245);
+color: white;
+}
