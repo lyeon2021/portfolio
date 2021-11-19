@@ -30,3 +30,10 @@ body {
 background-color:  rgb(155, 204, 245);
 color: white;
 }
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  padding: 00.5em;
+  
+}
